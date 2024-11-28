@@ -1,0 +1,37 @@
+.page-main {
+  @media (min-width: $desktop-width) {
+    overflow-x: hidden;
+  }
+}
+
+.page-main__catalog {
+  @media (min-width: $desktop-width) {
+    display: grid;
+    justify-content: center;
+  }
+}
+
+.page-main__add-goods {
+  overflow: hidden;
+  margin-bottom: 35px;
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 245px 245px 245px 245px;
+    column-gap: 60px;
+    margin-bottom: 86px;
+  }
+
+  @media (min-width: 1350px) {
+    column-gap: 80px;
+  }
+}
+
+.page-main__select-program {
+  @media (min-width: $desktop-width) {
+    display: block;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}

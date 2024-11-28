@@ -1,0 +1,47 @@
+.input-checkbox__value {
+  display: none;
+}
+
+.input-checkbox__label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #000000;
+  cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 32px;
+  }
+}
+
+.input-checkbox:last-child .input-checkbox__label {
+  margin-bottom: 0;
+}
+
+.input-checkbox__label::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 18px;
+  box-sizing: border-box;
+  border: 1px solid #cdcdcd;
+
+  @media (min-width: $desktop-width) {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.input-checkbox__value:checked + label::before {
+  background: url("../img/form/icon_check-mark.svg") no-repeat center center;
+}
+
+.input-checkbox__value:hover + label::before {
+  border: 1px solid #bababa;
+}
+
+.input-checkbox__value:active + label::before {
+  background: url("../img/form/icon_check-mark.svg") no-repeat center center;
+  opacity: 0.3;
+}

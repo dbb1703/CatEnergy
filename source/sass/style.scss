@@ -1,0 +1,39 @@
+// Global
+@import "global/variables.scss";
+@import "global/fonts.scss";
+@import "global/common.scss";
+
+// Common
+@import "blocks/common/page.scss";
+@import "blocks/common/page-header.scss";
+@import "blocks/common/mainnav.scss";
+@import "blocks/common/site-list.scss";
+@import "blocks/common/button.scss";
+@import "blocks/common/page-main.scss";
+@import "blocks/common/contacts";
+@import "blocks/common/page-footer";
+
+// Index
+@import "blocks/index/index.scss";
+@import "blocks/index/sentence.scss";
+@import "blocks/index/goals.scss";
+@import "blocks/index/work-stages.scss";
+@import "blocks/index/example.scss";
+@import "blocks/index/slider.scss";
+
+// Form
+@import "blocks/form/select-program.scss";
+@import "blocks/form/field.scss";
+@import "blocks/form/input-text.scss";
+@import "blocks/form/input-radio.scss";
+@import "blocks/form/textarea.scss";
+@import "blocks/form/input-checkbox.scss";
+
+// Catalog
+@import "blocks/catalog/catalog.scss";
+@import "blocks/catalog/card-gallery.scss";
+@import "blocks/catalog/gallery-more.scss";
+@import "blocks/catalog/add-goods.scss";
+
+// Visually-hidden
+@import "global/visually-hidden.scss";

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>CatEnergy</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body class="page__body index">
+    <header class="index__header page-header">
+      <div class="page-header__nav main-nav main-nav--nojs">
+        <a class="page-header__logo" href="index.html">
+          <picture>
+            <source
+              type="image/svg+xml"
+              media="(min-width: 1350px)"
+              srcset="img/logo-desktop.svg"
+            />
+            <source
+              type="image/svg+xml"
+              media="(min-width: 768px)"
+              srcset="img/logo-tablet.svg"
+            />
+            <img src="img/logo-mobile.svg" alt="Logo: Cat energy" />
+          </picture>
+        </a>
+        <div class="main-nav__toggle-wrapper">
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+        </div>
+        <nav class="main-nav__list-wrapper">
+          <ul class="main-nav__list site-list site-list--index">
+            <li class="site-list__item site-list__item--active">
+              <a class="site-list__link" href="index.html">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="catalog.html"
+                >Каталог продукции</a
+              >
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="form.html">Подбор программы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="index__sentence sentence">
+      <h1 class="sentence__title">Функциональное питание для котов</h1>
+      <div class="sentence__wrapper">
+        <p class="sentence__text">Занялся собой? Займись котом!</p>
+        <picture class="sentence__img">
+          <source
+            type="image/webp"
+            media="(min-width: 1350px)"
+            srcset="
+              img/index/sentence/can-desktop@1x.webp 1x,
+              img/index/sentence/can-desktop@2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1350px)"
+            srcset="
+              img/index/sentence/can-desktop@1x.png 1x,
+              img/index/sentence/can-desktop@2x.png 2x
+            "
+          />
+          <source
+            type="image/webp"
+            media="(min-width: 768px)"
+            srcset="
+              img/index/sentence/can-tablet@1x.webp 1x,
+              img/index/sentence/can-tablet@2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              img/index/sentence/can-tablet@1x.jpg 1x,
+              img/index/sentence/can-tablet@2x.jpg 2x
+            "
+          />
+          <source
+            type="image/webp"
+            srcset="
+              img/index/sentence/can-mobile@1x.webp 1x,
+              img/index/sentence/can-mobile@2x.webp 2x
+            "
+          />
+          <img
+            src="img/index/sentence/can-mobile@1x.png"
+            srcset="img/index/sentence/can-mobile@2x.png 2x"
+            alt="Питание для котов"
+          />
+        </picture>
+        <button
+          class="sentence__button button"
+          onclick="window.location.href='form.html'"
+        >
+          <span>Подобрать программу</span>
+        </button>
+      </div>
+    </main>
+
+    <section class="index__goals goals">
+      <h2 class="visually-hidden">Варианты целей для нормализации питания</h2>
+      <ul class="goals__list">
+        <li class="goals__item">
+          <h3 class="goals__title">Похудение</h3>
+          <img
+            class="goals__img"
+            src="img/index/goals/cat_back.svg"
+            alt="Похудение"
+          />
+          <p class="goals__text">
+            Ваш кот весит больше собаки и почти утратил способность лазить по
+            деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу
+            сбросить лишний вес.
+          </p>
+          <a class="goals__link" href="#" onclick="event.preventDefault();"
+            >Каталог Slim</a
+          >
+        </li>
+        <li class="goals__item">
+          <h3 class="goals__title">Набор массы</h3>
+          <img
+            class="goals__img"
+            src="img/index/goals/cat_back2.svg"
+            alt="Набор массы"
+          />
+          <p class="goals__text">
+            Заработать авторитет среди дворовых котов и даже собак? Серия Cat
+            Energy Pro поможет вашему коту нарастить необходимые мышцы!
+          </p>
+          <a class="goals__link" href="#" onclick="event.preventDefault();"
+            >Каталог Pro</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section class="index__work-stages work-stages">
+      <h2 class="work-stages__title">Как это работает</h2>
+      <div class="work-stages__list">
+        <div class="work-stages__item">
+          <div class="work-stages__num">1</div>
+          <img
+            class="work-stages__img"
+            src="img/index/work-stages/1.svg"
+            alt="Стадия 1"
+          />
+          <div class="work-stages__text">
+            Функциональное питание<br />
+            содержит только полезные<br />
+            питательные вещества.
+          </div>
+        </div>
+        <div class="work-stages__item">
+          <div class="work-stages__num">2</div>
+          <img
+            class="work-stages__img"
+            src="img/index/work-stages/2.svg"
+            alt="Стадия 2"
+          />
+          <div class="work-stages__text">
+            Выпускается в виде порошка,<br />
+            который нужно лишь залить<br />
+            кипятком и готово.
+          </div>
+        </div>
+        <div class="work-stages__item">
+          <div class="work-stages__num">3</div>
+          <img
+            class="work-stages__img"
+            src="img/index/work-stages/3.svg"
+            alt="Стадия 3"
+          />
+          <div class="work-stages__text">
+            Замените один-два приема<br />
+            обычной еды на наше<br />
+            функциональное питание.
+          </div>
+        </div>
+        <div class="work-stages__item">
+          <div class="work-stages__num">4</div>
+          <img
+            class="work-stages__img"
+            src="img/index/work-stages/4.svg"
+            alt="Стадия 4"
+          />
+          <div class="work-stages__text">
+            Уже через месяц наслаждайтесь изменениями к лучшему<br />
+            вашего питомца!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="index__example example">
+      <h2 class="example__title">Живой пример</h2>
+      <div>
+        <p class="example__text">
+          Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на
+          Cat Energy Slim. Отличный результат без изнуряющих тренировок! При
+          этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
+        </p>
+      </div>
+      <div class="example__stats">
+        <dl class="example__item">
+          <dt class="example__num">5 кг</dt>
+          <dd class="example__desc">снижение веса</dd>
+        </dl>
+        <dl class="example__item">
+          <dt class="example__num">60 дней</dt>
+          <dd class="example__desc">затрачено времени</dd>
+        </dl>
+        <dl class="example__item">
+          <dt class="example__num">15 000 руб.</dt>
+          <dd class="example__desc">затраты на питание:<span>&nbsp;</span></dd>
+        </dl>
+      </div>
+      <div class="example__preview">
+        <div class="slider">
+          <div class="slider__items">
+            <div class="slider__item slider__item--active">
+              <picture class="slider__img slider__img--before">
+                <source
+                  media="(min-width: 1350px)"
+                  type="image/webp"
+                  srcset="
+                    img/index/slider/before-desktop@1x.webp 1x,
+                    img/index/slider/before-desktop@2x.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1350px)"
+                  srcset="
+                    img/index/slider/before-desktop@1x.png 1x,
+                    img/index/slider/before-desktop@2x.png 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                  srcset="
+                    img/index/slider/before-tablet@1x.webp 1x,
+                    img/index/slider/before-tablet@2x.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    img/index/slider/before-tablet@1x.png 1x,
+                    img/index/slider/before-tablet@2x.png 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    img/index/slider/before-mobile@1x.webp 1x,
+                    img/index/slider/before-mobile@2x.webp 2x
+                  "
+                />
+                <img
+                  src="img/index/slider/before-mobile@1x.png"
+                  srcset="img/index/slider/before-mobile@2x.png 2x"
+                  alt="Кот - до"
+                />
+              </picture>
+            </div>
+            <div class="slider__item">
+              <picture class="slider__img slider__img--after">
+                <source
+                  media="(min-width: 1350px)"
+                  type="image/webp"
+                  srcset="
+                    img/index/slider/after-desktop@1x.webp 1x,
+                    img/index/slider/after-desktop@2x.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1350px)"
+                  srcset="
+                    img/index/slider/after-desktop@1x.png 1x,
+                    img/index/slider/after-desktop@2x.png 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                  srcset="
+                    img/index/slider/after-tablet@1x.webp 1x,
+                    img/index/slider/after-tablet@2x.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    img/index/slider/after-tablet@1x.png 1x,
+                    img/index/slider/after-tablet@2x.png 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    img/index/slider/after-mobile@1x.webp 1x,
+                    img/index/slider/after-mobile@2x.webp 2x
+                  "
+                />
+                <img
+                  src="img/index/slider/after-mobile@1x.png"
+                  srcset="img/index/slider/after-mobile@2x.png 2x"
+                  alt="Кот - после"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="slider__controls">
+            <a href="#" class="slider__prev slider__control--active">Было</a>
+            <div class="slider__indicator slider__indicator--before"></div>
+            <a href="#" class="slider__after">Стало</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page__contacts contacts">
+      <h2 class="contacts__title">Приглашаем к сотрудничеству дилеров!</h2>
+      <p class="contacts__text">
+        ул. Большая Конюшенная, д. 19/8<br /><br />
+        Санкт-Петербург
+      </p>
+      <div class="contacts__map-wrapper">
+        <picture class="contacts__map-image">
+          <source
+            type="image/webp"
+            media="(min-width: 1350px)"
+            srcset="img/map-desktop.webp, img/map-desktop@2x.webp 2x"
+          />
+          <source
+            media="(min-width: 1350px)"
+            srcset="img/map-desktop.png, img/map-desktop@2x.png 2x"
+          />
+          <source
+            type="image/webp"
+            media="(min-width: 768px)"
+            srcset="img/map-tablet.webp, img/map-tablet@2x.webp 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="img/map-tablet.png, img/map-tablet@2x.png 2x"
+          />
+          <source
+            type="image/webp"
+            srcset="img/map-mobile.webp, img/map-mobile@2x.webp 2x"
+          />
+          <img
+            src="img/map-mobile.png"
+            srcset="img/map-mobile@2x.png 2x"
+            alt="Карта"
+          />
+        </picture>
+      </div>
+    </section>
+
+    <footer class="page__footer page-footer">
+      <div class="page-footer__logo">
+        <a href="#" class="page-footer__logo-link">
+          <img src="img/logo-text.svg" alt="Логотип" />
+        </a>
+      </div>
+      <div class="page-footer__social">
+        <a
+          class="page-footer__social-link"
+          href="#"
+          onclick="event.preventDefault()"
+        >
+          <svg
+            role="img"
+            aria-labelledby="page-footer__icon-vk"
+            class="page-footer__icon-vk"
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title id="page-footer__icon-vk">Icon: VK</title>
+            <path
+              d="M17.6 12c-.3 0-.9-.1-1.5-.5-.5-.3-.9-.7-1.3-1.2-.3-.3-.9-.9-1.1-.9-.2.1-.4.7-.3 1.2 0 .1 0 .6-.3.9-.3.3-.8.4-.9.4h-1.4c-.7 0-3.2-.2-5.4-2.3C2.5 7.1.2 2.2.1 2 0 1.6-.1 1.2.2.9s.8-.4 1-.4h3.1c.1 0 .4.1.7.3.3.2.4.5.5.6.7 1.5 1.5 2.8 2.6 4 .1-.4.2-1.4.1-2.3 0-.4-.1-.8-.2-1-.1-.1-.3-.2-.5-.2l-.6-.5c0-.5.5-.9.9-1.1.5-.2 1.3-.3 2.3-.3h.5c.9 0 1.2.1 1.6.1 1.2.3 1.2 1.3 1.1 2.5v1.6c0 .3 0 .8.1 1 .2-.1.6-.5 1.5-1.9.6-.9 1-1.9 1.1-2.1.1-.3.4-.7 1.2-.7h3.4c.7 0 1.2.2 1.3.7.2.5.1 1.3-1.7 3.5-.3.3-.5.6-.7.9-.5.4-.9 1-.9 1.1s.5.5.9.9c1.1.9 1.9 1.7 2.2 2.3.4.6.3 1 .2 1.3-.3.7-1.2.7-1.4.8h-2.8-.1zm-3.9-3.7c.7 0 1.2.6 1.8 1.2.4.4.7.8 1.1 1 .5.3 1 .3 1 .3h2.9c.1 0 .3-.1.4-.1 0 0 0-.1-.1-.1-.3-.5-1-1.3-2-2.1-.9-.7-1.3-1.1-1.4-1.7 0-.6.4-1.1 1.2-2.1.2-.2.4-.5.7-.8 1.1-1.4 1.4-2 1.5-2.3h-3.9c0 .4-.5 1.5-1.1 2.4-1.4 2.1-2 2.4-2.5 2.4-.1 0-.3 0-.4-.1-.7-.4-.7-1.4-.7-2.1V2.6c.1-1.3 0-1.3-.3-1.4-.3-.1-.5-.1-1.4-.1H10c-.5 0-1 0-1.4.1l.2.2c.4.5.4 1.5.4 1.7.1 1.3 0 2.9-.7 3.3-.1 0-.2.1-.4.1-.6 0-1.3-.7-2.5-2.5C5 2.9 4.5 1.8 4.5 1.8s0-.1-.1-.1-.2-.1-.2-.1h-3c.4.9 2.5 5 4.8 7.2 2 1.9 4.3 2 4.7 2h1.4s.2 0 .2-.1v-.1c0-.2 0-2 1.2-2.3h.2z"
+            />
+          </svg>
+        </a>
+        <a
+          class="page-footer__social-link"
+          href="#"
+          onclick="event.preventDefault()"
+        >
+          <svg
+            role="img"
+            aria-labelledby="page-footer__icon-insta"
+            class="page-footer__icon-insta"
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title id="page-footer__icon-insta">Icon: Insta</title>
+            <path
+              d="M11.8 1C13.6 1 15 2.4 15 4.2v7.7c0 1.7-1.4 3.1-3.1 3.1H4.2C2.4 15 1 13.6 1 11.8V4.2C1 2.4 2.4 1 4.2 1h7.6m0-1H4.2C1.9 0 0 1.9 0 4.2v7.7C0 14.1 1.9 16 4.2 16h7.7c2.3 0 4.2-1.9 4.2-4.2V4.2C16 1.9 14.1 0 11.8 0z"
+            />
+            <path
+              d="M8 4.9c1.7 0 3.1 1.4 3.1 3.1S9.7 11.1 8 11.1 4.9 9.7 4.9 8 6.3 4.9 8 4.9m0-1C5.7 3.9 3.9 5.7 3.9 8s1.8 4.1 4.1 4.1 4.1-1.8 4.1-4.1S10.3 3.9 8 3.9z"
+            />
+            <circle cx="12.3" cy="3.7" r=".9" />
+          </svg>
+        </a>
+        <a
+          class="page-footer__social-link"
+          href="#"
+          onclick="event.preventDefault()"
+        >
+          <svg
+            role="img"
+            aria-labelledby="page-footer__icon-fb"
+            class="page-footer__icon-fb"
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title id="page-footer__icon-fb">Icon: FaceBook</title>
+            <path
+              d="M11.5.833252H8.75001c-1.21558 0-2.38137.473488-3.24091 1.316318-.85954.84282-1.34243 1.98593-1.34243 3.17786v2.69651h-2.75v3.59536h2.75V18.81h3.66667v-7.1907h2.74996L11.5 8.02394H7.83334V5.32743c0-.23838.09658-.46701.26848-.63557.17191-.16857.40507-.26326.64819-.26326H11.5V.833252z"
+              stroke-width="1.1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="page-footer__academy">
+        <a
+          href="#"
+          class="page-footer__academy-link"
+          onclick="event.preventDefault()"
+        >
+          <img
+            class="page-footer__academy-logo"
+            src="img/bottom_logo-academy.svg"
+            alt="HTMLAcademy"
+            height="16"
+            width="113"
+          />
+        </a>
+        <a
+          href="#"
+          class="page-footer__academy-link"
+          onclick="event.preventDefault()"
+        >
+          <svg
+            width="27"
+            height="34"
+            viewBox="0 0 27 34"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
+
+    <script src="js/script.min.js"></script>
+  </body>
+</html>

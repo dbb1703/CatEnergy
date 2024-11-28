@@ -1,0 +1,328 @@
+.select-program__form {
+  padding: 0 20px;
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  overflow: hidden;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 67px 0 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 30px;
+    overflow: visible;
+  }
+}
+
+.select-program__title {
+  width: 280px;
+  padding: 27px 20px 0;
+  margin: 0 0 37px 0;
+  border-top: 1px solid #d9d9d9;
+
+  @media (min-width: $tablet-width) {
+    width: unset;
+    display: inline-block;
+    border-top: 0;
+    padding-top: 47px;
+    padding-left: 29px;
+    margin-bottom: 54px;
+
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 62px;
+    margin-bottom: 56px;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+}
+
+.select-program__text {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 39px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 66px;
+  }
+}
+
+.select-program__legend-title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 35px;
+  margin-left: 19px;
+
+  font-size: 24px;
+  line-height: 26px;
+
+  & span {
+    display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+    margin-left: 0;
+
+    & br {
+      display: none;
+    }
+
+    & span {
+      display: inline-block;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .select-program__legend-title::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: (calc(100% + 37px));
+    width: 100%;
+    height: 2px;
+    background-color: #68b738;
+
+    @media (min-width: $tablet-width) {
+      right: (calc(100% + 39px));
+    }
+
+    @media (min-width: $desktop-width) {
+      right: (calc(100% + 40px));
+    }
+  }
+}
+
+.select-program__legend-title::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: calc(100% + 22px);
+  width: 150%;
+  height: 2px;
+  background-color: #68b738;
+
+  @media (min-width: $tablet-width) {
+    width: 300%;
+    left: calc(100% + 42px);
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1000%;
+  }
+}
+
+.select-program__legend-title--2r::after {
+  top: 25%;
+
+  @media (min-width: $tablet-width) {
+    top: 50%;
+  }
+}
+
+.select-program__legend-title--2r {
+  margin-bottom: 32px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 76px;
+  }
+}
+
+.select-program__fieldset {
+  margin: 0 -20px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #e7e7e7;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+  }
+}
+
+.select-program__fieldset .field {
+  padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
+}
+
+.select-program__fieldset--1 {
+  padding-bottom: 27px;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 9px;
+  }
+
+  @media (min-width: $desktop-width) {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    margin-right: 80px;
+  }
+}
+
+.select-program__fieldset--2 {
+  margin-top: 20px;
+  margin-bottom: 26px;
+
+  @media (min-width: $tablet-width) {
+    border: 1px solid #e7e7e7;
+    padding: 25px 25px 25px 28px;
+    margin-top: 63px;
+  }
+
+  @media (min-width: $desktop-width) {
+    box-sizing: border-box;
+    clear: right;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .select-program__fieldset--2 .input-radio {
+    padding: 0;
+  }
+}
+
+.select-program__fieldset--3 {
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 13px;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 0;
+    margin-top: 69px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .select-program__fieldset--3 .input-text {
+    float: left;
+    display: block;
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .select-program__fieldset--3 .input-text:last-child {
+    display: flex;
+    justify-content: flex-end;
+    clear: right;
+  }
+}
+
+.select-program__fieldset--4 {
+  border: none;
+  margin-top: 14px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 65px;
+    margin-bottom: 58px;
+    padding-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 60px;
+  }
+}
+
+.select-program__fieldset--4 legend {
+  margin-bottom: 34px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 76px;
+  }
+}
+
+.select-program__fieldset--4 .select-program__legend-title::after {
+  left: calc(100% + 38px);
+}
+
+@media (min-width: $tablet-width) {
+  .select-program__fieldset-5-wrapper {
+    display: grid;
+    grid-template-columns: 282px 282px;
+    column-gap: 61px;
+    margin-bottom: 72px;
+
+    @media (min-width: $desktop-width) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 104px;
+      margin-bottom: 82px;
+    }
+  }
+
+  .select-program__fieldset-5-wrapper .input-checkbox:nth-last-of-type(1) {
+    margin-bottom: 22px;
+  }
+}
+
+.select-program__fieldset--5 {
+  border: none;
+  padding-bottom: 0;
+}
+
+.select-program__fieldset--5 legend {
+  margin-bottom: 57px;
+}
+
+.select-program__fieldset--5 .select-program__legend-title::before {
+  right: calc(100% + 40px);
+}
+
+.select-program__fieldset--5 .select-program__legend-title::after {
+  left: calc(100% + 41px);
+}
+
+.select-program__fieldset--5 legend {
+  padding-top: 4px;
+  margin-bottom: 34px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 57px;
+  }
+}
+
+.select-program__button {
+  line-height: 20px;
+  margin-top: 34px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    width: 282px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-column: 1 / 3;
+    width: 568px;
+  }
+}
+
+.select-program__required-text {
+  margin: 21px 0 32px;
+
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}

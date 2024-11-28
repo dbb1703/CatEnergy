@@ -1,0 +1,125 @@
+.sentence {
+  background-image: url("../img/index/bg-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+
+  @media (min-resolution: 1.5dppx) and (min-width: 320px) {
+    background-image: url("../img/index/bg-mobile@2x.jpg");
+    background-size: contain;
+  }
+
+  @media (min-width: $tablet-width) {
+    background-image: none;
+    color: #000000;
+  }
+}
+
+.sentence__title {
+  line-height: 36px;
+  text-align: center;
+  padding-bottom: 18px;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    max-width: 420px;
+    margin-left: 117px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 26px;
+    position: relative;
+    z-index: 100;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 190px;
+    padding-bottom: 22px;
+  }
+}
+
+.sentence__wrapper {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    height: 642px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 329px;
+  }
+}
+
+.sentence__img {
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    order: 3;
+    position: relative;
+    z-index: 10;
+    top: -82px;
+    left: 5px;
+    width: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: -358px;
+    left: 115px;
+    height: 499px;
+    margin-bottom: -344px;
+  }
+}
+
+.sentence__text {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 29px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    order: 1;
+    text-align: left;
+    margin-left: 118px;
+    margin-top: 16px;
+    position: relative;
+    z-index: 100;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 190px;
+    padding-bottom: 34px;
+  }
+}
+
+.sentence__button {
+  margin-top: 2px;
+  font-size: 14px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: center;
+    order: 2;
+    margin-top: 18px;
+    margin-left: 112px;
+    padding: 17px 0;
+    font-size: 20px;
+    line-height: 20px;
+    height: auto;
+    box-sizing: border-box;
+    width: 244px;
+    position: relative;
+    z-index: 100;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 190px;
+  }
+}

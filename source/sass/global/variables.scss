@@ -1,0 +1,74 @@
+// Font family
+$oswald: "Oswald", "Arial", sans-serif;
+
+// Colors text
+$special_dark-grey: #444444;
+$special_grey: #cdcdcd;
+$special_grey-2: #ebebeb;
+$basic_grey: #f2f2f2;
+
+$main-text: #000000;
+$secondary-text: #333333;
+$light-text: #ffffff;
+$menu-text--hover: #81b3d2;
+$menu-text--down: rgba($main-text, 0.3);
+$menu-text--active: #766357;
+$menu-text--active-hover: #604e43;
+$button-text--active: rgba($light-text, 0.3);
+
+// Colors background
+$basic_green: #68b738;
+$error_red: #ff8282;
+
+$page-background: #f2f2f2;
+$body-background: #ffffff;
+$background-dark: #000000;
+$background-light: #eeeeee;
+$background-highlight: #81b3d2;
+
+$menu-background: #81b3d2;
+$menu-background--hover: #669ec0;
+$menu-background--active: #5496bd;
+
+$button-background: #81b3d2;
+$button-background--hover: #669ec0;
+$button-background--active: #5496bd;
+$button-background--disabled: #e5e5e5;
+
+$image-background: #81b3d2;
+$catalog-image-background: #fae2cb;
+
+//Colors icon
+$icon-color: #81b3d2;
+$icon-light: #ffffff;
+$icon-dark: #000000;
+$icon-dark-opacity: rgba(0, 0, 0, 0.3);
+$icon-controls-dark: #5c6870;
+$icon-controls--hover: #333333;
+$icon-controls--active: rgba($icon-controls--hover, 0.3);
+$icon-controls-tablet--hover: rgba($icon-light, 0.6);
+$icon-controls-tablet--active: rgba($icon-light, 0.3);
+
+// Colors input
+$input-background: #f2f2f2;
+$input--checked: #333333;
+$input--hover: #e5e5e5;
+$input--active: #d5d5d5;
+$input--disabled: #a4a4a4;
+
+$decoration-line: #e5e5e5;
+$decoration-line-dark: #d6d6d6;
+
+//Gallery card
+$card-gallery-background-light: #f2f2f2;
+$card-gallery-background-dark: rgba($background-dark, 0.3);
+
+// Colors video controls
+$controls-background: #f2f2f2;
+$volume-bar-background: rgba($background-dark, 0.6);
+
+// Viewports
+$mobile-width-only: 767px;
+$tablet-width: 768px;
+$desktop-width: 1350px;
+$max-width: 1440px;

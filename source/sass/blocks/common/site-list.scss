@@ -1,0 +1,117 @@
+.site-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-self: flex-end;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .site-list__item--active {
+    border-bottom: 2px solid $basic_green;
+
+    @media (min-width: $desktop-width) {
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .site-list__item:nth-child(1) {
+    margin-right: 24px;
+
+    @media (min-width: 790px) {
+      margin-right: 34px;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin-right: 37px;
+    }
+  }
+
+  .site-list__item:nth-child(2) {
+    margin-right: 24px;
+
+    @media (min-width: 790px) {
+      margin-right: 36px;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin-right: 32px;
+    }
+  }
+}
+
+.site-list__item:last-child {
+  position: relative;
+  z-index: 10;
+
+  @media (max-width: $mobile-width-only) {
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: -1px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 30px;
+  }
+}
+
+.site-list__link {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 64px;
+  font-size: 20px;
+  font-weight: bold;
+  border-top: 1px solid #e6e6e6;
+
+  &:hover {
+    color: rgba(#000000, 0.6);
+  }
+
+  &:active {
+    color: rgba(#000000, 0.3);
+  }
+
+  @media (min-width: $tablet-width) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    border-top: none;
+    padding-bottom: 10px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+  }
+}
+
+.site-list--index .site-list__link {
+  @media (min-width: $desktop-width) {
+    &:hover {
+      color: rgba(#ffffff, 0.6);
+    }
+
+    &:active {
+      color: rgba(#ffffff, 0.3);
+    }
+  }
+}
+
+.site-list--white-bg .site-list__item--active {
+  @media (min-width: $desktop-width) {
+    border-bottom: 2px solid $basic_green;
+  }
+}
+
+.site-list--white-bg .site-list__link {
+  @media (min-width: $desktop-width) {
+    color: black;
+  }
+}
